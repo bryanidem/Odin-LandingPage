@@ -88,8 +88,9 @@ button {
   background-color: #3882f6;
   color: #f9faf8;
   border: none;
-  padding: 5px 40px;
+  padding: 10px 60px;
   border-radius: 4px;
+  font-size: 20px;
 }
 
 .random-information {
@@ -143,4 +144,41 @@ button {
   font-family: Roboto-Bold;
   text-align: right;
   margin: 0;
+}
+
+.call-to-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner {
+  margin: 10%;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10% 0;
+  padding: 5% 0;
+}
+
+.banner-title {
+  font-size: 24px;
+  font-family: Roboto-Bold;
+  margin: 0;
+}
+
+.banner-text {
+  margin: 0;
+  font-size: 18px;
+}
+
+.banner-button {
+  border: 2px solid #f9faf8;
+  border-radius: 5px;
+  font-size: 18px;
 }
