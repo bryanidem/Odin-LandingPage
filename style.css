@@ -8,6 +8,11 @@
   src: url(fonts/Roboto-Bold.ttf);
 }
 
+@font-face {
+  font-family: Roboto-Italic;
+  src: url(fonts/Roboto-LightItalic.ttf);
+}
+
 html,
 body {
   height: 100%;
@@ -26,6 +31,11 @@ h1 {
   margin: 5px;
 }
 
+h2 {
+  font-size: 30px;
+  font-family: Roboto-Bold;
+  margin: 0 0 100px 0;
+}
 .hero {
   background-color: #1f2937;
   color: #f9faf8;
@@ -80,4 +90,57 @@ button {
   border: none;
   padding: 5px 40px;
   border-radius: 4px;
+}
+
+.random-information {
+  background-color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 180px;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-image {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  width: 180px;
+  height: 180px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-container {
+  max-width: 60%;
+  margin: 10%;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-family: Roboto-Italic;
+  margin: 0;
+}
+
+.quote-author {
+  font-size: 22px;
+  font-family: Roboto-Bold;
+  text-align: right;
+  margin: 0;
 }
