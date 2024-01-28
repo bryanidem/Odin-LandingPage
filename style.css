@@ -21,10 +21,6 @@ body {
   font-family: Roboto, "Courier New", Courier, monospace;
 }
 
-section {
-  border: 2px solid red;
-}
-
 h1 {
   font-size: 48px;
   font-family: Roboto-Bold;
@@ -181,4 +177,13 @@ button {
   border: 2px solid #f9faf8;
   border-radius: 5px;
   font-size: 18px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 15px 0;
 }
